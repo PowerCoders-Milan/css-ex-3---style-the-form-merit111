@@ -1,1 +1,16 @@
 /* Use Selectors and attributes for the HTML design */
+.regform {
+    color: rgb(204, 77, 77);
+    font-size: large;
+    text-shadow: coral;
+    font-family: 'Times New Roman', Times, serif;
+    text-size-adjust: 44px;
+    
+}
+
+div .titel {
+    color: brown;
+    font-size: medium;
+    text-align: right;
+    text-size-adjust: 34px;
+}

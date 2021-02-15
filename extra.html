@@ -1,2 +1,62 @@
 <!--  Paste the HTML from the form exercise.
       Create your own style in -->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title></title>
+      </head>
+      <body>
+        <div class="regform"><h1>Registration Form</h1></div>
+        <div class="mane">
+          <form action="">
+          <div id="name">
+            <h2 class="name">Name</h2>
+            <input class="firstname" type="text" name="first_name"><br>
+            <label class="firstlabel">first name</label>
+            <input class="lastname" type="text" name="last_name">
+            <label class="lastlabel">last name</label>
+          </div>
+
+          <h2 class="name">Company</h2>
+          <input class="company" type="text" name="company">
+
+          <h2 class="email">Email</h2>
+          <input class="email" type="text" name="email">
+
+          <h2 class="name">Phone</h2>
+          <input class="code" type="text" name="area_code">
+          <label class="area-code">Area code</label>
+          <input class="number" type="text" name="phone">
+          <label class="phone-number">Phone Numaber</label>
+
+          <h2 class="name">Subject</h2>
+          <selct class="option" name="Subject"></selct>
+          <option disabled="disabled" select="select">--choose option</option>
+          <option value="">English</option>
+          <option value="">Mathematics</option>
+          <option value="">Science</option>
+
+
+          </select>
+
+          <h2 id="student">Are you a beginner ?</h2>
+
+          <label class="radio">
+            <input class="radio-one" type="radio" checked="checked" name="">
+            <span class="checkmark"></span>
+            yes
+          </label>
+          <label class="radio">
+            <input class="radio-one" type="radio" checked="checked" name="">
+            <span class="checkmark"></span>
+            No
+          </label>
+
+          <button type="submit">Register</button>
+          </form>
+        </div>
+      </body>     
